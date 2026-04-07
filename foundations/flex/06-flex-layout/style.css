@@ -16,20 +16,28 @@ body {
 .header{
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 16px;
 }
 
 .footer{
   display: flex;
   justify-content: space-between;
   background-color: lightgray;
+  padding: 0 16px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  padding: 0 16px;
-  gap: 16px;
+  padding: 0;
+  gap: 24px;
 }
 
 a {
@@ -46,6 +54,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
