@@ -7,8 +7,29 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0 16px;
+  gap: 16px;
 }
 
 a {
