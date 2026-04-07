@@ -16,6 +16,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   padding: 0 16px;
+  flex-grow: 0;
 }
 
 .footer {
@@ -25,17 +26,38 @@ body {
   color: darkmagenta;
   justify-content: center;
   align-items: center;
+  flex-grow: 0;
 }
 
 .centerview{
   display: flex;
+  flex-grow: 1;
   margin: 0;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  margin-top: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
 .sidebar {
   width: 300px;
+  display: flex;
+  min-width: fit-content;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 0px 16px;
 }
 
 .card {
